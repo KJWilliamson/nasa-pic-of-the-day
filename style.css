@@ -1,0 +1,34 @@
+/* 
+https://cssgradient.io/blog/css-gradient-text/
+
+*/
+
+.wow {
+    width: 100px;
+  }
+  
+  *{
+    box-sizing: border-box;
+  }
+  
+  body {
+      text-align: center;
+      background-color: black;
+      
+  }
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+      display: block;
+      margin: 0 auto;
+      height: 500px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+      background: -webkit-linear-gradient(#eee, #8ec7d2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
